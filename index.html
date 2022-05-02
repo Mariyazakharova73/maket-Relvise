@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./pages/index.css">
@@ -8,14 +9,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тренировочный макет</title>
 </head>
+
 <body class="root">
   <div class="page">
     <header class="header">
+        <div class="header__container container">
+          <a href="#" class="header__logo">Relvise</a>
+          <nav>
+            <ul class="header__menu">
+              <li><a class="header__menu-link" href="#">Home</a></li>
+              <li><a class="header__menu-link" href="#">Product</a></li>
+              <li><a class="header__menu-link" href="#">Pricing</a></li>
+              <li><a class="header__menu-link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
-    <main class="content"></main>
+   <main class="content">
+      <section class="solution">
+        <h1 class="solution__title">Finance and Consultancy Solution
+        </h1>
+        <p class="solution__subtitle">We know how large objects will act,
+          but things on a small scale.</p>
+        <div class="solution__buttons">
+          <a class="section-button " >Get Quote Now</a>
+          <a class="section-button section-button_light">Learn More</a>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card">
+        <img class="card-image" src="./images/tool-box.png" alt="Иконка">
+          <div class="card-heading">Environmental
+            Consulting</div>
+          <div class="card-text">We focus on ergonomics and
+            meeting you where you work. </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="./images/shop-twotone.png" alt="Иконка">
+          <div class="card-heading">Finance and
+            consultancy </div>
+          <div class="card-text">Just type what's on your mind
+            and we'll get you there.</div>
+        </div>
+        <div class="card card_dark">
+          <img class="card-image" src="./images/notebook.png" alt="Иконка">
+          <div class="ard-heading">Financial Services
+            Consulting</div>
+          <div class="card-text card-text_dark">the quick fox jumps over the
+            lazy dog</div>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
 
   </div>
-  
+
 </body>
+
 </html>

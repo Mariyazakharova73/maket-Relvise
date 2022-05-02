@@ -1,9 +1,12 @@
 .root {
-  /* font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
-  background-color: #2A2C2F;
+  /* color: #FFFFFF;
+  background-color: #2A2C2F;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-weight: 400; */
+  color: #252B42;
+  font-size: 14px;
+  line-height: 143%;
   /* Сглаживание */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

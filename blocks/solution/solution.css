@@ -1,0 +1,33 @@
+.solution {
+  padding-left: 197px;
+  padding-top: 184px;
+  background: url(../../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 793px;
+  box-sizing: border-box;
+}
+
+.solution__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 138%;
+  max-width: 509px;
+  margin-bottom: 35px;
+}
+
+.solution__subtitle {
+  margin: 0;
+  max-width: 376px;
+  font-size: 20px;
+  line-height: 150%;
+  margin-bottom: 35px;
+  color: #737373;
+}
+
+.solution__buttons {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}

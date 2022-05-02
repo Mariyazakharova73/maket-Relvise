@@ -1,0 +1,41 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  justify-content: center;
+  margin-top: -111px;
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 328px;
+  min-height: 242px;
+  background-color: #FFFFFF;
+  padding: 40px 35px 35px 40px;
+}
+
+.card_dark {
+  background-color: #0D5C63;
+  color: #FFFFFF;
+}
+
+.card-image {
+  width: 47px;
+  height: 41px;
+}
+
+.card-heading {
+  margin-top: 13px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.card-text {
+  margin-top: 10px;
+  color: #737373;
+}
+
+.card-text_dark {
+  color: #FFFFFF;
+}
