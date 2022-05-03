@@ -1,9 +1,17 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
+/* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/container/container.css);
+/* SOLUTION */
 @import url(../blocks/solution/solution.css);
 @import url(../blocks/section-button/section-button.css);
+/* CARDS */
 @import url(../blocks/cards/cards.css);
+/* EXPERIENCE */
+@import url(../blocks/experience/experience.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+/* FOOTER */
 @import url(../blocks/footer/footer.css);

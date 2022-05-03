@@ -13,10 +13,18 @@
   padding: 5px 36px;
   box-sizing: border-box;
   text-align: center;
+  text-decoration: none;
 }
 
 .section-button_light {
   background: transparent;
   color: #0D5C63;
   border: 1px solid #0D5C63;
+}
+
+@media screen and (max-width: 479px) {
+  .section-button {
+    /* flex-grow, flex-shrink, flex-basis Значение по умолчанию: 0 1 auto */
+    flex: 1 1 auto;
+  }
 }
