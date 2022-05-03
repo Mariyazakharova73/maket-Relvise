@@ -13,5 +13,9 @@
 @import url(../blocks/experience/experience.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
+/* ADVICE */
+@import url(../blocks/advice/advice.css);
+/* WHO */
+@import url(../blocks/who/who.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
