@@ -26,7 +26,19 @@
   margin: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .business__title {
+  text-align: center;
+  }
+}
+
 .business__subtitle {
   color: #737373;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .business__subtitle {
+  text-align: center;
+  }
 }
