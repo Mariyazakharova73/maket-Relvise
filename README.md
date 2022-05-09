@@ -12,4 +12,4 @@
 
 **Cсылка на страницу**
 
-<!-- * [Ссылка: "Путешествие по России"](https://mariyazakharova73.github.io/russian-travel/index.html) --> -->
+* [Ссылка: "Тренировочный макет"](https://mariyazakharova73.github.io/maket-Relvise/index.html)
