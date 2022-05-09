@@ -3,25 +3,39 @@
   padding-bottom: 136px;
 }
 
+@media screen and (max-width: 1439px) {
+  .who {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .who {
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
 .who__container {
   margin-top: 100px;
   display: flex;
-  gap: 121px;
+  column-gap: 121px;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 30px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .who__container {
     margin-top: 50px;
-    gap: 30px;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .who__container {
+    margin-top: 30px;
   }
 }
 

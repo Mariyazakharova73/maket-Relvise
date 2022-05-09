@@ -17,5 +17,9 @@
 @import url(../blocks/advice/advice.css);
 /* WHO */
 @import url(../blocks/who/who.css);
+/* SUBSCRIBE */
+@import url(../blocks/subscribe/subscribe.css);
+/* CONTACT */
+@import url(../blocks/contact/contact.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
