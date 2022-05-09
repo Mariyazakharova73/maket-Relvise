@@ -59,3 +59,34 @@ display: flex;
 flex-wrap: wrap;
 gap: 10px;
 }
+
+.solution-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  border-radius: 37px;
+  background: #FF7B47;
+  font-size: 14px;
+  line-height: 200%; 
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 1px solid #FF7B47;
+  padding: 5px 36px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+.solution-button_light {
+  background: transparent;
+  color: #0D5C63;
+  border: 1px solid #0D5C63;
+}
+
+@media screen and (max-width: 479px) {
+  .solution-button {
+    /* flex-grow, flex-shrink, flex-basis Значение по умолчанию: 0 1 auto */
+    flex: 1 1 auto;
+  }
+}

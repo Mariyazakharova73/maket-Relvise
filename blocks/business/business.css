@@ -1,0 +1,32 @@
+.business {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .business {
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .business {
+    align-items: stretch;
+  }
+}
+
+.business__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  margin: 0;
+}
+
+.business__subtitle {
+  color: #737373;
+  margin: 0;
+}

@@ -24,6 +24,8 @@
   min-height: 393px;
   flex-wrap: wrap;
   row-gap: 10px;
+  padding: 0;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -70,20 +72,4 @@
   font-size: 16px;
   line-height: 171%;
   margin: 0;
-}
-
-.contact__card-button {
-  color: #FF7B47;
-  background: transparent;
-  border: 1px solid #FF7B47;
-  min-height: 44px;
-  max-width: 160px;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-.contact__card-button:hover {
-  color: #FFFFFF;
-  background: transparent;
-  border: 1px solid #FFFFFF;
 }

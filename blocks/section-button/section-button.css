@@ -1,30 +1,28 @@
 .section-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 48px;
-  border-radius: 37px;
-  background: #FF7B47;
-  font-size: 14px;
-  line-height: 200%; 
-  font-weight: 700;
-  color: #FFFFFF;
   border: 1px solid #FF7B47;
-  padding: 5px 36px;
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
+  min-height: 44px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
-.section-button_light {
+.section-button_plase_contact {
+  color: #FF7B47;
   background: transparent;
-  color: #0D5C63;
-  border: 1px solid #0D5C63;
+  max-width: 160px;
+}
+
+.section-button_plase_contact:hover {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.section-button_plase_business {
+  background-color: #FF7B47;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 479px) {
-  .section-button {
-    /* flex-grow, flex-shrink, flex-basis Значение по умолчанию: 0 1 auto */
+  .section-button_plase_business {
     flex: 1 1 auto;
   }
 }
