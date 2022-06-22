@@ -3,6 +3,7 @@
   min-height: 44px;
   padding: 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .section-button_plase_contact {

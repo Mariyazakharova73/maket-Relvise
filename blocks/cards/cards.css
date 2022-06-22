@@ -44,15 +44,6 @@
   cursor: pointer;
 }
 
-.button-swipe-right:hover {
-  cursor: pointer;
-  background-position: left;
-  color: aliceblue;
-  fill: aliceblue;
-}
-
-
-
 .card-image {
   width: 47px;
   height: 41px;

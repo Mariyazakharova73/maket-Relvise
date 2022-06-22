@@ -68,7 +68,7 @@ gap: 10px;
   border-radius: 37px;
   background: #FF7B47;
   font-size: 14px;
-  line-height: 200%; 
+  line-height: 200%;
   font-weight: 700;
   color: #FFFFFF;
   border: 1px solid #FF7B47;
@@ -76,6 +76,7 @@ gap: 10px;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .solution-button_light {

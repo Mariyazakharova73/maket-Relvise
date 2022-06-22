@@ -54,6 +54,7 @@
   background-color: #252B42;
   color: #FFFFFF;
   min-height: 393px;
+  cursor: pointer;
 }
 
 .contact__card-image {
