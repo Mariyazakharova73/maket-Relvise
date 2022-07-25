@@ -3,59 +3,10 @@
   padding-bottom: 25px;
 }
 
-.cards__list {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  margin: 0;
-  list-style-type: none;
-}
 
-@media screen and (max-width: 767px) {
-  .cards__list {
-    gap: 20px;
-  }
-}
 
-.card {
-  box-sizing: border-box;
-  max-width: 328px;
-  background-color: #FFFFFF;
-  padding: 40px 40px 35px 40px;
-  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-  transition: background-color 0.5s linear;
-  /* height: 100%; меняется высота карточек в зависимости от контента*/
-  fill: #0D5C63;
-}
 
-@media screen and (max-width: 1279px) {
-  .card {
-    max-width: 250px;
-    padding: 20px 20px 20px 20px;
-  }
-}
 
-.card:hover {
-  background-color: #0D5C63;
-  color: #FFFFFF;
-  fill: aliceblue;
-  cursor: pointer;
-}
 
-.card-image {
-  width: 47px;
-  height: 41px;
-}
 
-.card-heading {
-  margin-top: 13px;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 133%;
-}
 
-.card-text {
-  margin-top: 10px;
-}

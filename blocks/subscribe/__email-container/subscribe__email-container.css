@@ -1,0 +1,22 @@
+.subscribe__email-container {
+  display: flex;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  column-gap: 180px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1380px) {
+  .subscribe__email-container {
+    column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .subscribe__email-container {
+    row-gap: 30px;
+    padding: 20px;
+  }
+}

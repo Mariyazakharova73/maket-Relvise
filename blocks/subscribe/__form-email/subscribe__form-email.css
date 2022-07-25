@@ -1,0 +1,16 @@
+.subscribe__form-email {
+  display: block;
+  width: 333px;
+  border-radius: 5px;
+  padding-left: 20px;
+  line-height: 200%;
+  color: #737373;
+  min-height: 58px;
+  flex: 1 1 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .subscribe__form-email {
+   width: 200px;
+  }
+}

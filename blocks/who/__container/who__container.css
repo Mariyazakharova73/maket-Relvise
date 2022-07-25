@@ -1,0 +1,21 @@
+.who__container {
+  margin-top: 100px;
+  display: flex;
+  column-gap: 121px;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .who__container {
+    margin-top: 50px;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .who__container {
+    margin-top: 30px;
+  }
+}

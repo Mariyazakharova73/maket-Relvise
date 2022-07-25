@@ -1,0 +1,10 @@
+.footer__navigation-container {
+  padding: 50px 0;
+  min-height: 272px;
+  display: flex;
+  column-gap: 83px;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}

@@ -1,0 +1,11 @@
+.footer__social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-container {
+    flex-direction: column;
+  }
+}

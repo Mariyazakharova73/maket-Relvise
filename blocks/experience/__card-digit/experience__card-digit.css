@@ -1,0 +1,12 @@
+.experience__card-digit {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+}
+
+@media screen and (max-width: 479px) {
+  .experience__card-digit {
+    font-size: 33px;
+  }
+}

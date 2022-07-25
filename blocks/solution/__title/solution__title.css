@@ -1,0 +1,14 @@
+.solution__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 138%;
+  max-width: 509px;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 479px) {
+  .solution__title {
+    font-size: 42px;
+  }
+}

@@ -1,0 +1,15 @@
+.who__video {
+  max-width: 597px;
+}
+
+@media screen and (max-width: 1439px) {
+  .who__video {
+    max-width: 470px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .who__video {
+    width: 100%;
+  }
+}

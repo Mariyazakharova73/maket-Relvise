@@ -1,0 +1,10 @@
+.subscribe__form-button {
+  display: block;
+  background-color: #FF7B47;
+  color: #FFFFFF;
+  border-radius: 5px;
+  line-height: 200%;
+  padding: 15px 22.5px;
+  flex: 1 1 auto;
+  cursor: pointer;
+}

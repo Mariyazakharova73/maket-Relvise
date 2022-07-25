@@ -1,0 +1,23 @@
+.subscribe__resources {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 86px;
+  row-gap: 30px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1380px) {
+  .subscribe__resources {
+  column-gap: 50px;
+  row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .subscribe__resources {
+    row-gap: 20px;
+  }
+}

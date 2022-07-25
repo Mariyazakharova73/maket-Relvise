@@ -1,0 +1,7 @@
+.subscribe__link {
+  transition: opacity 0.5s linear;
+}
+
+.subscribe__link:hover {
+  opacity: .5;
+}
